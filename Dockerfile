@@ -7,5 +7,4 @@ RUN wget -O getmail6.tar.gz "https://github.com/getmail6/getmail6/archive/refs/t
   tar -zxvf getmail6.tar.gz && \
   cd getmail6-${GETMAIL_RELEASE} && \
   python setup.py install && \
-  cd .. && rm -rf getmail* && \
-  mkdir -p ~/.config/getmail/
+  cd .. && rm -rf getmail*
